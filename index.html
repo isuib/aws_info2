@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=11">
+		<title>AWS用語</title>
+		<!-- <script src="jsontypetxt.js"></script> -->
+		<script src="aws_term_data.js"></script>
+		<script src="aws_term_sys.js"></script>
+		<link href="aws_term.css" rel="stylesheet">
+	</head>
+	<body id="normal">
+		<div class="header">
+			<div>★用語リスト AWS★</div>
+		</div>
+		<div class="diva">
+			<table id="table1">
+				<tbody>
+					<tr class='sort'>
+						<td></td>
+						<td>
+							<div onclick="sortf(-1, 1)">登録順</div>
+							<div onclick="sortf(1, 1)">昇順</div>
+							<div onclick="sortf(1, -1)">降順</div>
+						</td>
+						<td>
+							<div onclick="sortf(-1, 1)">登録順</div>
+							<div onclick="sortf(2, 1)">昇順</div>
+							<div onclick="sortf(2, -1)">降順</div>
+						</td>
+						<td>
+							<div class="oya" id="oya1">選択
+								<div class="detail">
+									<ul>
+										<li>ALL
+									</ul>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<!-- <tr>
+						直接thを書いてもOK
+						<th>--</th>
+					</tr> -->
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+@charset "shift-jis";
+body {
+	background-color: #c6fe81;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header {
+	height: 30px;
+	margin: 5px;
+	padding: 5px 15px;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'sans-serif', 'arial black';
+	background-color: rgba(170,170,170,0.9);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+table {
+	border: 1px solid #777777;
+	border-radius: 5px;
+}
+#table1 th {
+	border: 1px rgba(50,50,50,1) solid;
+	background-color: rgba(255,255,204,1);
+}
+
+/* #table1 .general */
+td {
+	font-size: 12px;
+	border: 1px rgba(50,50,50,1) solid;
+	background-color: white;
+}
+#table1 .sort td {
+	border: 0;
+	font-size: 10px;
+	vertical-align: top;
+	background-color: transparent;
+}
+#table1 .sort td > div:hover{
+	cursor: pointer;
+	background-color: lightyellow;
+}
+.diva {
+	background-color: rgba(204,255,255,0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 0 5px;
+	display: table;
+}
+/* ŒÂ•ÊÝ’è */
+.icon {
+	text-align: center;
+}
+.icon img {
+	height: 50px;
+}
+.url {
+	width: 70px;
+	font-size: 10px;
+}
+
+/* ƒƒjƒ…[‚Ì•”•ª */
+.oya {
+	max-width: 130px;
+}
+.detail {
+	background-color: rgba(255,255,255, 0.8);
+	margin-left: 20px;
+	color: black;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.6s ease;
+}
+.detail li:hover {
+	background-color: rgba(255,255,200,0.9);
+}
+.detail ul {
+	margin: 1px;
+	padding-left: 0;
+}
+.detail li {
+	padding-left: 10px;
+	list-style: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.oya:hover > .detail {
+	max-height: 300px;
+}
